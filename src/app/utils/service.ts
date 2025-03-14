@@ -14,3 +14,8 @@ export const getCars = async (): Promise<GetCarsReturn> => {
 type GetCarReturn = {
     car: Car;
 };
+
+export const getCar = async (id: string): Promise<GetCarReturn> => {
+    const res = await fetch(`${API_URL}/api/cars/${id}`);
+    return res.json();
+};
