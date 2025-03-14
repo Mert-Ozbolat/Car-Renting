@@ -9,7 +9,7 @@ interface Props {
 const Gallery = ({ car }: Props) => {
     return (
         <div className="grid">
-            <div className="bg-[url(/bg-2.png)] bg-ccenter bg-cover rounded-lg p-4 text-white">
+            <div className="bg-[url(/bg-2.png)] bg-center bg-cover rounded-lg p-4 text-white">
                 <h1 className="text-3xl font-semibold">En iyi tasarıma ve hızlanmaya sahip spor otomobil</h1>
 
                 <p className="text-gray-200 mt-2">Sürüş sırasında güvenlik ve konfor fütüristik ve zarif spor araba</p>
