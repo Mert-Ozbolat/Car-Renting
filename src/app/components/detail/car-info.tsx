@@ -78,7 +78,7 @@ const CarInfo = ({ car }: Props) => {
                     <span className="text-2xl font-semibold">{car.price}tl /</span>
                     <span className="ms-1 text-zinc-400">gün</span>
                 </p>
-                <RentButton />
+                <RentButton car={car} />
             </div>
 
         </div>
