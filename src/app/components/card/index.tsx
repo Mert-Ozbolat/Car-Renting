@@ -27,7 +27,7 @@ const Card = ({ car }: Props) => {
             </div>
 
             <div className="max-md:flex max-md:justify-between max-md:gap-10">
-                <div className="w-full h-[200px] relative">
+                <div className="w-full h-[250px] relative">
                     <Image src={generateImage(car)} alt={car.make} unoptimized fill />
                 </div>
 
