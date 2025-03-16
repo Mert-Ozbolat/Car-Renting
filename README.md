@@ -11,9 +11,10 @@ This project is a modern car rental platform developed using Next.js and TypeScr
 - ⚡ Fast and SEO-friendly structure (Next.js)
 
 
-# ⚡ Technologies
+# ⚡Technologies
 
 - Next.js 15 (App Router)
 - TypeScript
 - Tailwind CSS
+- MongoDB (Database)
 - Stripe (Payment infrastructure)
